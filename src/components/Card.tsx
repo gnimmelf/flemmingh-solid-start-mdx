@@ -19,7 +19,7 @@ const styles = {
 export function Card(props: {
   title: string;
   children: JSXElement;
-  fullWidth: boolean
+  fullWidth?: boolean
   centerContent?: boolean
   aside?: boolean
   footer?: () => JSXElement;

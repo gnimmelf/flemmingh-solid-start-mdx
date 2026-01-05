@@ -24,11 +24,11 @@ export function TeaserList(props: {
   return (
     <CardContainer>
       <For each={sorted()} fallback={<div>No items</div>}>
-        {(a, idx) => (
-          <Card title={a.meta.title}>
-            <p>{a.meta.intro}</p>
+        {(article) => (
+          <Card title={article.meta.title}>
+            <p>{article.meta.intro}</p>
             <p>
-              <a class={linkOverlay()} href={a.path}>
+              <a class={linkOverlay()} href={article.path}>
                 Read more
               </a>
             </p>
