@@ -17,7 +17,7 @@ Technical Debt (TD) mainly falls into two borad categories:
 
 - **Code Debt**
 
-However, we need one more crucial distinction: Technical Debt can be **Tactical**.
+However, we need one more crucial distinction: Technical Debt can be *tactical*.
 
 ## Tactical Debt
 
@@ -25,16 +25,23 @@ However, we need one more crucial distinction: Technical Debt can be **Tactical*
 
 - Infrastructure costs, tracked as regular expenses.
 
+  - Services that are to be phased out or slimmed down
+
 - Deliberate coding choices, like hardcoding or bypassing architecture for efficiency.
 
 **Tactical Debt** is *visible* and *tracked*. If untracked, it becomes Technical Debt.
 
-(Yes, I am aware of the logical inconsistency here, but trust me, this is good enough to get the point across)
+(Yes, I am aware of the logical inconsistency here, but trust me, this is good enough to get the point across!)
 
 # Simplified Definitions
 
-- **Architectural Debt**: System components too costly to change now.
-- **Technical Debt**: Undesirable elements in the system, whether known or unknown.
+- **Architecture**: "That which is too expensive to change (now)." - Really, that is the beste definition on software architecture!
+
+  - **Architectural Debt**: System components too costly to change now.
+
+  - **Technical Debt**: Undesirable elements in the system: known or unknown.
+
+- **Tactical Debt**: Undesirable elements in the system willingly taken on out of pragamtism.
 
 These definitions highlight that assessing debt requires deep system insight, often beyond management's immediate understanding.
 
@@ -94,7 +101,12 @@ Create a "Tech Debt Bucket" in the task management system - one per repository -
 ## Rule #5: Manage the Tech Debt Bucket
 
 The Tech Debt Bucket is a developer-driven space, free from strict Scrum rules. Developers should:
-- Regularly groom TODOs into actionable Tech Debt Items.
-- Ensure items are clear enough for management to understand and prioritize.
+- Regularly groom TODOs into *actionable* Tech Debt Items.
+
+  - Ensure items are clear enough for management to understand and prioritize
+
+- Move the Tech Debt Items out of the grooming bucket and into a work-package or equivilent that management can see
+
+---
 
 This process fosters collaboration and ensures Technical Debt is addressed systematically.

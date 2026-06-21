@@ -11,8 +11,8 @@ import { linkScope } from "styled-system/recipes";
 
 import { CgDarkMode } from "solid-icons/cg";
 import { CgMenu } from "solid-icons/cg";
-import { SiLinkedin } from "solid-icons/si";
-import { SiGithub } from "solid-icons/si";
+import { AiFillLinkedin } from 'solid-icons/ai'
+import { AiFillGithub } from 'solid-icons/ai'
 import { SquaresBg } from "./SquaresBg";
 
 const LINK_AREA = "menu";
@@ -147,7 +147,7 @@ export function MenuBar() {
             target="_blank"
             class={styles.menuButton}
           >
-            <SiGithub size={23} />
+            <AiFillGithub size={23} />
           </a>
 
           <a
@@ -155,7 +155,7 @@ export function MenuBar() {
             target="_blank"
             class={styles.menuButton}
           >
-            <SiLinkedin size={23} />
+            <AiFillLinkedin size={23} />
           </a>
 
           <button
