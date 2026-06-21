@@ -2,7 +2,19 @@
 
 Utilizing solid-start and mdx.
 
-Deploy to deno.
+## Moved from `Deploy Classic` to `Deno Deploy` (New Deno Infra 2026)
+
+Deploy to deno via `git push`
+
+- I don't like this, so try to revert to manual deploy from commandline
+
+### Build & deploy (Old)
+
+1. `npm run prepare`
+2. `npm run build`
+
+
+=> `npm run prepare && npm run build && npm run deploy`
 
 ## Panda CSS
 

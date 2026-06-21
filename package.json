@@ -5,8 +5,7 @@
     "prepare": "panda codegen",
     "dev": "vinxi dev",
     "build": "NODE_ENV=prod panda codegen && vinxi build",
-    "start": "vinxi start",
-    "deploy": "cd .output && deployctl deploy --project=flemmingh server/index.mjs"
+    "start": "vinxi start"
   },
   "dependencies": {
     "@mdx-js/mdx": "^2.3.0",
